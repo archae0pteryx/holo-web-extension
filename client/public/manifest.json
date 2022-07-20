@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Holo Extension",
+  "version": "1.1",
+
+  "description": "Foo",
+  "icons": {
+    "48": "holo-48x48.png"
+  },
+
+  "permissions": ["storage"],
+
+  "browser_action": {
+    "default_icon": {
+      "48": "holo-48x48.png"
+    },
+    "default_title": "Holo",
+    "default_popup": "index.html"
+  }
+}
